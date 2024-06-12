@@ -411,6 +411,10 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center
 }
 .footer-copywright {
   text-align: center !important;
@@ -419,15 +423,25 @@ button:focus {
 .footer-body {
   z-index: 1;
   text-align: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
 }
 
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
+    margin: 0;
+  padding: 10px 0;
   }
 
   .footer-body {
     text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0
   }
 }
 
@@ -441,6 +455,7 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
+  gap: 10px;
 }
 
 .blockquote-footer {

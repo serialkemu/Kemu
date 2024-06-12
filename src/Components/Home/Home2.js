@@ -17,7 +17,7 @@ function Home2() {
             <p className="home-about-body">
               I love coding
               <br/>
-              <br /><b className="purple" >I am have worked </b> 
+              <br /><b className="purple" >I have worked </b> 
               <i>
                 <b >on personal and Team Projects </b>
               </i>
@@ -26,8 +26,8 @@ function Home2() {
                An Enthusiastic and results-oriented Software Engineer with a passion for crafting user-centric interfaces.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and  I can work with
+              I also apply my passion for developing products
+              with <b className="purple">React.js</b> and  I can work with other
               <i>
                 <b className="purple">
                   {" "}
@@ -36,7 +36,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b  className="purple"> React.js and Bootstrap</b>
+                <b  className="purple"> React Native Tailwind and Bootstrap</b>
               </i>
             </p>
           </Col>

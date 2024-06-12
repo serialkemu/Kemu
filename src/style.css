@@ -11,7 +11,7 @@ html {
     hsla(140, 40%, 6%, 0.863)
   );
 
-  --imp-text-color: #148a35;
+  --imp-text-color: #34e767;
 }
 
 .purple {
@@ -33,7 +33,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: hsl(150, 58%, 5%);
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./Assets/pre.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -724,6 +724,73 @@ button:focus {
     transform: scale(1);
   }
 }
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: var(--section-background-color);
+  color: white;
+}
+
+.contact-form {
+  background: rgba(17, 17, 16, 0.9); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group .icon {
+  margin-right: 10px;
+  color: var(--imp-text-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--imp-text-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: hsl(103, 100%, 35%);
+}
+
+
 
 .fork-btn {
   font-size: 1.1em !important;

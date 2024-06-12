@@ -17,12 +17,12 @@ function Home2() {
             <p className="home-about-body">
               I love coding
               <br/>
-              <br />I am fluent in classics like
+              <br /><b className="purple" >I am have worked </b> 
               <i>
-                <b className="purple"> html, Javascript and tailwind. </b>
+                <b >on personal and Team Projects </b>
               </i>
               <br />
-              <br />
+              <br/> 
                An Enthusiastic and results-oriented Software Engineer with a passion for crafting user-centric interfaces.
               <br />
               <br />
@@ -36,7 +36,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b  className="purple"> React.js and Bootstrap</b>
               </i>
             </p>
           </Col>

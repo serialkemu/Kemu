@@ -25,7 +25,7 @@ function Projects() {
               title="Medusa"
               description="It is a platform to report Sexual Gender Based Violence (SGDV) incidents. It uses Bootstrap for styling, Sass for CSS pre-processing, React with JSX for the user interface, and MongoDB for the database"
               ghLink="https://github.com/serialkemu/med-usa3"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://github.com/serialkemu/med-usa3"
             />
           </Col>
 
@@ -36,8 +36,8 @@ function Projects() {
               title="Stock-control"
               description=" Aweb application for stock management using ReactJSX for the UI, Bootstrap and Sass for styling, and MongoDB for the database.
 This combination allows for a user-friendly interface, responsive design, and scalable data storage for your stock management system."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/justus-ombati/Stock-Inventory-Control"
+              demoLink="https://github.com/justus-ombati/Stock-Inventory-Control"
             />
           </Col>
 
@@ -47,8 +47,8 @@ This combination allows for a user-friendly interface, responsive design, and sc
               isBlog={false}
               title="Portfolio"
               description="A portfolio website using React JSX for a clean component-based structure.Leveraged Tailwind CSS for rapid styling with utility classes, ensuring a responsive and modern design.This combination allows for easy maintenance and customization, making the portfolio adaptable to my needs."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/serialkemu/kemu"
+              demoLink="https://github.com/serialkemu/kemu"              
             />
           </Col>
           </Row>

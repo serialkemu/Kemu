@@ -4,8 +4,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiUbuntu
+  SiUbuntu,
 } from "react-icons/si";
 import {FiFigma} from "react-icons/fi"
 

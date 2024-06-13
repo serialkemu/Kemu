@@ -18,6 +18,7 @@ const Contact = () => {
       ...formData,
       [name]: value
     });
+    console.log("form",formData)
   };
 
   const handleSubmit = (e) => {
@@ -30,11 +31,11 @@ const Contact = () => {
       companyName: formData.companyName,
       message: formData.message
     };
-
-    emailjs.send('service_tj7miqw', 'Harry_kemu', templateParams, 'LjLOkNZPeJ77p1RUp')
+console.log(templateParams)
+    emailjs.send('service_z5ax0qp', 'Harry_kemu', templateParams, 'LjLOkNZPeJ77p1RUp')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Message sent successfully!');
+        alert('Message sent to Harriet successfully!');
       }, (err) => {
         console.log('FAILED...', err);
         alert('Failed to send message, please try again later.');

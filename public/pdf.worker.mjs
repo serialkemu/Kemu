@@ -80,7 +80,7 @@ const AnnotationEditorType = {
   FREETEXT: 3,
   HIGHLIGHT: 9,
   STAMP: 13,
-  INK: 15
+  INK: 15 <Github />
 };
 const AnnotationEditorParamsType = {
   RESIZE: 1,
